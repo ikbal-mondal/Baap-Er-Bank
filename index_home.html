@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baap Er Bank</title>
+    <!-- tailwind css cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+ 
+  </head>
+ 
+  <body>
+    <!-- header to  -->
+    <header>
+      <h1 class="text-5xl text-center text-purple-800 bg-green-300 px-5 py-3">
+        welcome to your
+        <span class="font-semibold text-blue-600">Baap Er Bank</span> !!
+       
+      </h1>
+    </header>
+
+    <main class="py-3">
+
+      <div class="bg-slate-300 mx-auto w-9/12  px-8 py-2 rounded">
+        <img class="mx-auto my-0 w-96" src="images/login.png" alt="">
+   
+        <h1 class="text-3xl text-center text-purple-800  px-5 py-3 font-extrabold">
+               Login  </h1>
+                
+        <input
+          class="block w-9/12 m-3 p-2 rounded mx-auto"
+          type="email" id="user_email"
+          placeholder=" Please  Enter Your Email "/>
+        
+        <input
+          class="block w-9/12 m-3 p-2 rounded mx-auto"
+          type="password" id="user_Password"
+          placeholder="Please  Enter Your Password" />
+       
+        <button
+          class="bg-gray-900 px-10 py-2 text-white font-semibold rounded-xl mx-auto block my-5 hover:bg-gray-700" id="btn_submit"
+          type="button">
+        
+          Submit
+        </button>
+      </div>
+    </main>
+
+    <!-- Main  js file -->
+    <script src="script.js"></script>
+  </body>
+</html>
